@@ -1,0 +1,17 @@
+.contact-form-container{
+    /* background: #0A192F; */
+    /* height: 100vh; */
+    padding-top: 150px !important;
+}
+.contact-form-content{
+    /* margin-top: 250px !important; */
+    padding: 30px 20px 30px 20px;
+    border-radius: 10px;
+    background: #A1DB45;
+}
+.btn-contact{
+    background-color: #78C800;
+}
+.btn-contact:hover{
+    color: #fff;
+}

@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.text-colorful {
+    color: #000;
+    font-weight: 700;
+}
+
+.header-content {
+    padding-top: 170px !important;
+}
+
+/* .header-content-first{
+    margin: 0 50px 0 0;
+} */
+
+.moving-hand {
+    height: 60px;
+    width: 60px;
+}
+
+.row {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+/* Fancy border radius */
+
+.box {
+    width: 25rem;
+    height: 25rem;
+    /* margin: 100px 0 0 170px; */
+    border: 7px solid #ffffff50;
+    float: left;
+    border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+    background-image: linear-gradient(45deg, #08aeea, #2af598 100%);
+    animation: morph 8s ease-in-out infinite;
+}
+
+@keyframes morph {
+    0% {
+        border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+    }
+    50% {
+        border-radius: 30% 60% 70% 40% / 50% 60% 30% 60%;
+        background-image: linear-gradient(45deg, #fa88ff, #2bd2ff 50%, #2bff88 90%);
+    }
+    100% {
+        border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+    }
+}
+
+.box2 {
+    background: #08aeea50 url('../../../Images//hanif.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top -10px center;
+    background-blend-mode: multiply;
+    animation: morph2 8s ease-in-out infinite 1s;
+}
+
+@keyframes morph2 {
+    0% {
+        border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+    }
+    50% {
+        border-radius: 30% 60% 70% 40% / 50% 60% 30% 60%;
+        /* background-image: linear-gradient(45deg, #fa88ff, #2bd2ff 50%, #2bff88 90%); */
+    }
+    100% {
+        border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+    }
+}
+
+/* Type Writer */
+
+.type-writer {
+    font-size: 25px;
+    /* color: tomato; */
+}
+
+.typewriter-text {
+    color: #f71390b7;
+    font-weight: 700;
+}
+
+/* .object {
+    animation: MoveUpDown 3s linear infinite;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+  }
+  
+  @keyframes MoveUpDown {
+    0%, 100% {
+      bottom: 70px;
+    }
+    50% {
+      bottom: 100px;
+    }
+  } */
+
+
+
+  
+@media(max-width:992px) {
+    .box {
+        margin: 0 0 0 0;
+        height: 18rem;
+        width: 18rem;
+        /* padding: 50px; */
+    }
+    .type-writer {
+        font-size: 20px;
+    }
+}

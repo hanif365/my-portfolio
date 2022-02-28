@@ -1,0 +1,31 @@
+.fa-link{
+    /* color: #67a50b; */
+    margin-right: 15px;
+    font-size: 25px;
+    color: #c7f381;
+}
+.footer-container{
+    background: #96D531;
+}
+.text-me{
+    color: yellow;
+}
+
+/* Bottom to top */
+.bottom-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 10px;
+    background: #96D531;
+    color: #fff;
+    padding: 5px 8px;
+    border-radius: 5px;
+    transition: all 500ms;
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.459);
+    z-index: 9999;
+}
+
+.bottom-to-top:hover {
+    background: #69a706bd;
+    color: #fff;
+}

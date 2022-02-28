@@ -1,0 +1,45 @@
+.technology span{
+    /* background: #4b5769; */
+    background: #A1DB45;
+    margin-right: 5px;
+    margin-top: 5px;
+    border-radius: 3px;
+    padding: 3px 10px;
+    font-size: 13px;
+    height: 26px;
+}
+
+.all-work-description-container{
+    /* background-color: #172a45; */
+    background-color: #78C800;
+    padding: 10px 20px;
+    color: #fff !important;
+    z-index: 10;
+    /* height: 250px; */
+}
+.all-work-details-container{
+    cursor: pointer;
+}
+.all-work-details-container:hover .all-work-image-box{
+    opacity: 1;
+}
+
+.all-work-image-box{
+    height: 320px;
+    margin: 0 60px;
+    opacity: 0.8;
+}
+.code-link{
+    margin-right: 15px;
+    font-size: 25px;
+    color: #c7f381;
+}
+
+@media(max-width:768px){
+    .work-image img{
+        margin: 0;
+    }
+    .all-work-image-box{
+        margin: 0;
+    }
+}

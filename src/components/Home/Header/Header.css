@@ -1,0 +1,13 @@
+.header-container{
+    /* background-color: #0A192F; */
+    background-color: #78C800;
+    /* height: 623px; */
+    border-radius: 0 0 0 250px;
+    padding: 0 0 45px 0;
+}
+
+@media(max-width:768px){
+    .header-container{
+        border-radius: 0 0 0 0;
+    }
+}
