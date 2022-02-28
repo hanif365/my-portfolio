@@ -14,7 +14,7 @@ const Footer = () => {
                 <a href="https://www.instagram.com/abuhanif.cse3/" className="fa-link me-3" target="_blank"><FontAwesomeIcon icon={faInstagram} /></a>
             </ul>
             <div className=" d-flex justify-content-center  text-light">
-                &copy;{new Date().getFullYear()} <span className="text-me mx-2"> M.A.Hanif khan </span> - All Rights reserved.
+                &copy;{new Date().getFullYear()} <span className="text-me mx-2"> M.A.Hanif </span> - All Rights reserved.
             </div>
 
             <div>
