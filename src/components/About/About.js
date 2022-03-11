@@ -13,7 +13,7 @@ const About = () => {
             <div className="py-5 my-5 container d-flex justify-content-between text-light">
                 <div className="col-6 pe-3">
                     <img src={aboutImg} className="about-img img-fluid" alt="" />
-                    <h5 className="text-colorful py-3">I'm</h5>
+                    <h5 className="text-colorful pt-5 pb-3">I'm</h5>
                     <h2>M.A.Hanif</h2>
                     <p>A self-motivated and enthusiastic web developer with a deep interest in JavaScript. To work in the Software industry with modern web technologies of different local & multinational Software/ IT agencies of Bangladesh and grow rapidly with increasing responsibilities.</p>
                 </div>

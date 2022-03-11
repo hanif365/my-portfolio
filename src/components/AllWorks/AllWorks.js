@@ -6,7 +6,7 @@ import Navbar from '../Share/Navbar/Navbar';
 
 const AllWorks = () => {
     const [allWorks, setAllWorks] = useState([]);
-    const allWorksFilterData = allWorksData.slice(0,3);
+    const allWorksFilterData = allWorksData.slice(0,5);
 
     useEffect(() => {
         setAllWorks(allWorksFilterData);

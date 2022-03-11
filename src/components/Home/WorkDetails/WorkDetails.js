@@ -28,9 +28,12 @@ const WorkDetails = (props) => {
                     <h5 class="card-title">{title}</h5>
                     <p class="card-text">{description}</p>
                     <div className="d-flex flex-wrap technology">
-                        <span>{tech1}</span>
+                        {/* <span>{tech1}</span>
                         <span>{tech2}</span>
-                        <span>{tech3}</span>
+                        <span>{tech3}</span> */}
+                        {tech1 && <span>{tech1}</span>}
+                        {tech2 && <span>{tech2}</span>}
+                        {tech3 && <span>{tech3}</span>}
                         {tech4 && <span>{tech4}</span>}
                         {tech5 && <span>{tech5}</span>}
                         {tech6 && <span>{tech6}</span>}

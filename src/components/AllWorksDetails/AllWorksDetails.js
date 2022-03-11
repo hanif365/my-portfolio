@@ -18,13 +18,13 @@ const AllWorksDetails = (props) => {
                     <h3>{title}</h3>
                     <p>{description}</p>
                     <div className="d-flex flex-wrap technology">
-                        <span>React.js</span>
-                        <span>Node.js</span>
-                        <span>Express.js</span>
-                        <span>Stripe.js</span>
-                        <span>BootStrap5</span>
-                        <span>MongoDB</span>
-                        <span>Firebase</span>
+                        {tech1 && <span>{tech1}</span>}
+                        {tech2 && <span>{tech2}</span>}
+                        {tech3 && <span>{tech3}</span>}
+                        {tech4 && <span>{tech4}</span>}
+                        {tech5 && <span>{tech5}</span>}
+                        {tech6 && <span>{tech6}</span>}
+                        {tech7 && <span>{tech7}</span>}
                     </div>
                     {/* <div className="pt-3">
                         <a href="#" className="code-link"><FontAwesomeIcon icon={faGithub} /></a>
