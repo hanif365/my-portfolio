@@ -76,7 +76,11 @@ const HeaderContent = () => {
                 {/* <a href="#">
                     <button className="btn btn-colorful text-light py-2">Get In Touch</button>
                 </a> */}
-                <a href="https://drive.google.com/uc?id=1io8ws0ZomXGJxek6iahKaWb79jBsw78s&export=download" target="_blank" className="btn btn-colorful py-2 px-5 my-2">Download Resume</a>
+
+                <a href="https://drive.google.com/uc?id=1wIp3QBE6RrROYKqldpGSq6aoJJeUO5LC&export=download" target="_blank" className="btn btn-colorful py-2 px-5 my-2">Download Resume</a>
+
+                {/* Old Resume */}
+                {/* <a href="https://drive.google.com/uc?id=1io8ws0ZomXGJxek6iahKaWb79jBsw78s&export=download" target="_blank" className="btn btn-colorful py-2 px-5 my-2">Download Resume</a> */}
             </div>
             <div className="col-md-5 header-img-container object mt-3" data-aos="fade-left">
                 <div className="box box2">
